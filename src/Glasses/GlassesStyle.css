@@ -1,0 +1,56 @@
+
+/** Glasses Exercise */
+#glassesContainer {
+    height: 950px;
+    width: 1200px;
+    position: relative;
+  
+}
+#glassesContainer:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(./glassesImage/background.jpg);
+    background-size: cover;
+    opacity: 0.6;
+}
+.glassesTop {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    background-image: url(./glassesImage/model.jpg);
+    background-size: cover;
+    height: 360px;
+    width: 300px;
+    position: relative;
+}
+.card-img-top {
+    position: absolute;
+    top: 85px;
+    left: 62px;
+    width: 178px;
+    height: 60px;
+}
+.card-body {
+    margin-top: 230px;
+    background-color: rgba(236, 134, 39, 0.6);
+}
+.glassesBot {
+    background-color: rgba(128, 128, 128, 0.25);
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+.glassesBot button {
+    margin-bottom: 30px;
+}
+.glassesBot img {
+    width: 120px;
+    height: auto;
+    max-height: 36px;
+}
